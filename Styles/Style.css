@@ -1,0 +1,109 @@
+#nav_menu ul
+{
+    text-align:center;
+    padding:1em 0;
+    list-style-type:none;
+    border-top:2px solid rgb(255, 0, 123);
+}
+#nav_menu ul li
+{
+    display:inline;
+    padding: 0 1.5em;
+    border: 2px solid pink;
+}
+#nav_menu ul li a 
+{
+    font-weight:bold;
+    color:rgb(255, 61, 151);
+}
+#nav_menu ul li a.current
+{
+    text-decoration: none;
+    color:deeppink;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus
+{
+    background-color: rgb(162, 13, 80);
+}
+header
+{
+    background-color: pink;
+    padding:15px;
+    margin: 0;
+}
+body 
+{
+    background-color:pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+nav
+{
+    background-color: rgb(253, 153, 209);
+    padding: 10px;
+}
+h1
+{
+    color: rgb(255, 0, 102);
+    padding: 10px;
+    text-decoration:none;
+    text-align:left;
+}
+h2 
+{
+    color:white;
+    padding: 10px;
+    text-decoration:none;
+    text-align:left;
+}
+h4 
+{
+    color:white;
+    padding: 10px;
+    text-decoration:none;
+    text-align:left;
+}
+h5 
+{
+    color:white;
+    padding: 0px;
+    text-decoration:none;
+    text-align:right;
+}
+p
+{
+   text-align:center;
+   color:white;
+   font-size: 25px;
+}
+.Chocolate-Fountain
+{
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    width: 70%;
+    border: 8px solid white;
+}
+.Dessert
+{
+    margin: left;
+    margin-top: 5px;
+    width: 30%;
+}
+.copyright 
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+footer
+{
+    padding:0;
+    color: white;
+    margin-top:1px;
+    right: 0;
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+    background-color: palevioletred;
+}
